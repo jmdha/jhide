@@ -8,6 +8,7 @@ local DEFAULTS = {
 	buffs = { name = 'Buffs', val = true, ele = nil },
 	debuffs = { name = 'Debuffs', val = true, ele = nil },
 	chatbar = { name = 'ChatBar', val = true, ele = nil },
+	objectives = { name = 'Objectives', val = true, ele = nil }
 }
 
 local function setup_options(f)
@@ -56,6 +57,7 @@ local function on_event(frame, event, name)
 	jhideDB.buffs.ele = BuffFrame;
 	jhideDB.debuffs.ele = DebuffFrame;
 	jhideDB.chatbar.ele = ChatFrame1ButtonFrame;
+	jhideDB.objectives.ele = ObjectiveTrackerFrame;
 	setup_options(frame)
 	setup_hide()
 end
