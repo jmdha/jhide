@@ -1,7 +1,7 @@
 ## Interface: 120000
 ## Title: jhide
 ## Author: Jan M. D. Hansen
-## Version: 2
+## Version: 3
 ## SavedVariables: jhideDB
 
 jhide.lua
